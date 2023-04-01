@@ -1,0 +1,18 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "My awesome app",
+  "main": "service.js",
+  "scripts": {
+    "start": "node service.js .",
+    "server": "nodemon service.js ."
+  },
+  "dependencies": {
+    "async": "^3.2.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
+
